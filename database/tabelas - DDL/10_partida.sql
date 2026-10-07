@@ -12,6 +12,7 @@ CREATE TABLE partida (
     equipe1_id INT NOT NULL,
     equipe2_id INT NOT NULL,
     data_hora TIMESTAMP NOT NULL,
+    duracao INTERVAL NOT NULL,
     local_partida VARCHAR(255) DEFAULT 'Online',
 
     CONSTRAINT fk_partida_campeonato
