@@ -10,7 +10,8 @@ CREATE TABLE jogador (
   cpf VARCHAR(11) UNIQUE NOT NULL,
   email VARCHAR(255) UNIQUE NOT NULL,
   data_nascimento DATE NOT NULL,
-  endereco VARCHAR(255) NOT NULL,
+  pais VARCHAR(100) NOT NULL,
+  cidade VARCHAR(100) NOT NULL,
   numero_mpvs INT,
   posicao_ranking INT,
 );
