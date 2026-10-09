@@ -12,6 +12,7 @@ CREATE TABLE jogador (
   data_nascimento DATE NOT NULL,
   pais VARCHAR(100) NOT NULL,
   cidade VARCHAR(100) NOT NULL,
+  funcao_preferida VARCHAR(100),
   numero_mpvs INT,
   posicao_ranking INT,
 );
